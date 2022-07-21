@@ -1,0 +1,164 @@
+@import url(https://fonts.google.com/specimen/Rubik);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    color: hsl(229, 8%, 60%);
+}
+
+.header-img {
+    background: url(images/);
+}
+
+nav {
+    width: 100%;
+}
+
+.mobile-nav {
+    width: 100%;
+}
+
+.shrink {
+    width: 90%;
+}
+
+.shrink ul {
+    width: 100%;
+}
+
+.hidden-nav {
+    width: 100%;
+    height: 100vh;
+    background-color:  hsla(229, 31%, 21%, 0.931);
+    z-index: 999;
+}
+
+.hidden-socials {
+    margin-top: 10rem;
+}
+
+.shrink {
+    min-width: 350px;
+    max-width: 400px;
+}
+
+.burger-menu button {
+    background: inherit;
+}
+
+.burger-menu button:hover {
+    background-color: inherit;
+}
+
+button {
+    background-color: hsl(231, 69%, 60%);
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
+.chromeButton:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
+.firefoxButton:hover {
+    border: 2px solid hsla(229, 31%, 21%, 0.931);
+    color: hsla(229, 31%, 21%, 0.931);
+}
+
+ main > ul li:hover {
+    color: red;
+}
+
+.collapsible .fa-chevron-down {
+    color:hsl(231, 69%, 60%);
+    cursor: pointer;
+}
+
+.collapsible .fa-chevron-up {
+    color: red;
+}
+
+.collapsible button {
+    background: none;
+}
+
+.collapsible button:hover {
+    background: none;
+}
+
+.colored-section {
+    background-color: hsl(231, 69%, 60%);
+}
+
+.colored-section button {
+    background-color: hsl(0, 94%, 66%);
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.colored-section input {
+    padding-right: 80px;
+    padding-left: 5px;
+    outline: none;
+}
+
+.other-colored-section {
+    background-color: hsl(229, 31%, 21%);
+}
+
+.faqs {
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .mobile-nav {
+        width: auto;
+    }
+
+    nav div ul li a:hover {
+        color: red;
+    }
+
+    .loginButton {
+        background: red;
+        color: white;
+    }
+
+    .loginButton:hover {
+        color: red;
+        background: transparent;
+        border: 2px solid red;
+    }
+
+    .firefox {
+        margin-top: 2.5rem;
+    }
+
+    .opera {
+        margin-top: 9.9rem;
+    }
+
+    .colored-section button {
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+}
+
+
+ 
+/* .li1::after {
+    content: "&";
+    background-color: hsl(0, 94%, 66%);
+    width: 100px;
+    height: 10px;
+} */
